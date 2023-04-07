@@ -1,0 +1,41 @@
+{
+  "name": "rgb-cube",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "dependencies": {
+    "leva": "^0.9.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.37.0",
+    "eslint-config-react-app": "^7.0.1",
+    "sass": "^1.56.1",
+    "stylelint": "^15.4.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recommended": "^11.0.0",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vite-tsconfig-paths": "^4.0.8"
+  }
+}
